@@ -36,3 +36,4 @@ The *Word of the day* project facilitates learning new words, by bla bla bla.
 SARCINA: 
 
 * create a Markdown table with git commands you used and their meaning
+* and commit the file to your local git repo

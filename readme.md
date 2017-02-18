@@ -33,7 +33,20 @@ The *Word of the day* project facilitates learning new words, by bla bla bla.
 
 ## Quick git reference
 
-SARCINA: 
+Command      |   Description
+----------------|-------------------------------------------------------------------------------------------
+git init          | The git init command creates a new Git repository
+git add         | The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit. However, git add doesn't really affect the repository in any significant way—changes are not actually recorded until you run git commit.
+Git status     |The command checks the status and reports that there’s nothing to commit.
+Git commit <file> –m <message> | to save your work into Git version control
+Git config     | lets you get and set configuration variables that control all aspects of how Git looks and operates
+Git diff  | displays the differences between two versions in detail
+Git log | lists the commits made in that repository in reverse chronological order – that is, the most recent commits show up first.
+
+
+# Tasks
 
 * create a Markdown table with git commands you used and their meaning
 * and commit the file to your local git repo
+
+

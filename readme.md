@@ -12,7 +12,7 @@ The *Word of the day* project facilitates learning new words, by bla bla bla.
 
 # Installation instructions
 
-1. Install dependencies with `C:\Users\Liuda\AppData\Local\Programs\Python\Python35\Scripts\pip3.5.exe install Pillow`
+1. Install dependencies with `C:\Users\[username]\AppData\Local\Programs\Python\Python35\Scripts\pip3.5.exe install Pillow`
 
 
 
@@ -48,5 +48,19 @@ Git log | lists the commits made in that repository in reverse chronological ord
 
 * create a Markdown table with git commands you used and their meaning
 * and commit the file to your local git repo
+
+
+
+# Features
+
+1. Retrieve Bing image of the day
+2. Retrieve a word from a file one after another
+3. Search the transalation of the word
+4. Overlay the word and its translation on the image
+5. Set the image as the desktop background
+
+
+
+
 
 

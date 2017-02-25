@@ -1,11 +1,15 @@
 import requests, json
 import ctypes
+from PIL import Image
+from PIL import ImageDraw
+from PIL import ImageFont
 
 def main():
     jum_de_url = half_url_image()
     url_image = whole_url(jum_de_url)
     image_path = save_image(url_image)
     set_wallpaper(image_path)
+    text_on_image(image_path,'test',(700,700),200)
 
 def set_wallpaper(image_path):
     '''Change the Windows wallpaper to the image given by its path.
@@ -42,6 +46,13 @@ def save_image(url_image):
     f.write(image_data)
     f.close()
     return target_path
+
+def text_on_image(image_path,text,coordonates,size):
+    desen = Image.open(image_path)
+    experiment = ImageDraw.Draw(desen)
+    font = ImageFont.truetype('calibri.ttf', size)
+    experiment.text(coordonates, text, (255,0,0),font=font)
+    desen.save('d:/programming/prived-medved.jpg')
 
 
 if __name__ == '__main__':
